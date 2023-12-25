@@ -1,22 +1,27 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use Javascript to get repo's information all my repos have only one request.
+- name: Master's Degree
+  i18n: 
+  img: /static/assets/img/landing/MD_thumbnail.png
+  desc: I am currently working on my Master's Degree research project named "Spatio-temporal Analysis of Snowmelt Onset using Machine Learning Methods"
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: Youtube video-making
+  i18n: 
+  url: https://www.youtube.com/ClementCherblanc
+  img: /static/assets/img/landing/youtube.png
+  desc: I am frequently uploading new videos of research, skiing, mountaineering, running or cubing.
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: World Cube Association
+  i18n: 
+  url: https://www.worldcubeassociation.org/
+  img: /static/assets/img/landing/WCA.jpeg
+  desc: I am involved as a Junior Delegate for Montana, USA. I am constantly working to improve the quality of competitions, to have a more diverse, friendly and welcoming environment for more cubers.
+  
+  
+#- name: Youtube video-making
+#  i18n: 
+#  gh_user:      ###### IF I WANT TO INCLUDE A GITHUB REPO
+#  repo: 
+#  img: /static/assets/img/landing/youtube.png
+#  desc: This project is other's project. I use another request to get repo's information.
