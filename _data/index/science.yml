@@ -4,13 +4,58 @@
     detail: University of Montana
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: I am working on my Master's Degree in Geosciences. My thesis focuses on the Spatio-Temporal Variability of the Snowmelt Onset using Machine Learning Methods. This work is done under the supervision of Dr. Joel T. Harper. 
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Sep. 2022
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Master's student
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+  
+- name:
+    detail: Chronopost
+    i18n: company_a
+  desc:
+    detail: I contributed to the safe and fast transportation of goods and secured goods as a sorting agent and driving at Chronopost for 3 years
+    i18n: company_a_desc
+  date:
+    detail: Sep. 2018
+    i18n: company_a_date
+  job:
+    detail: Sorting agent
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+  
+- name:
+    detail: Université Savoie Mont Blanc
+    i18n: company_a
+  desc:
+    detail: I completed a Bachelor's Degree in Physics (2016-2019) and in Geosciences (2019-2022)
+    i18n: company_a_desc
+  date:
+    detail: Sep. 2016
+    i18n: company_a_date
+  job:
+    detail: Undegraduate student
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+  
+- name:
+    detail: World Cube Association
+    i18n: company_a
+  desc:
+    detail: I contributed to the expansion of the [WCA](https://www.worldcubeassociation.org/) since 2015. I organized over 50 competitions in 15 countries (5 continents), I was a WCA Competition Announcement Team member (Nov. 2018 - Jun. 2020) and I am a Junior Delegate since Dec. 2022.
+    i18n: company_a_desc
+  date:
+    detail: Nov. 2015
+    i18n: company_a_date
+  job:
+    detail: Variety of involvement
     i18n: company_a_job
   icon: fa-plus-square
   present: true
