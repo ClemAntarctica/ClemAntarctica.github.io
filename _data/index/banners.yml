@@ -2,8 +2,32 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/header_one.jpg
-  title: first banner image
+- src: landing/header_1.jpg
+  title: Helicopter rescue June 2023
 
-- src: landing/header_two.jpg
-  title: second banner image
+- src: landing/header_2.jpg
+  title: Mountaineering in the Ecrins, June 2021
+  
+- src: landing/header_3.jpg
+  title: Extract of bee swarm plots from my research
+  
+- src: landing/header_4.jpg
+  title: Ski-mountaineering on Tahoma, May 2023
+  
+- src: landing/header_5.jpg
+  title: Rubik's Cube workshop and competition in Nuuk, June 2023
+  
+- src: landing/header_6.jpg
+  title: Aerial shot of our camp on the Greenland Ice Sheet, May 2022
+  
+- src: landing/header_7.jpg
+  title: Aerial shot of melting sea ice, Ilulissat, May 2022
+  
+- src: landing/header_8.jpg
+  title: Gient icebergs calving off of Jakobshavn Isbrae, May 2022
+  
+- src: landing/header_9.jpg
+  title: Barre des Écrins, February 2022
+  
+- src: landing/header_10.jpg
+  title: Qooroq glacier, South Greenland, June 2022
