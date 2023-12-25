@@ -1,13 +1,13 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: University of Montana
+    detail: "Master's Degree at the University of Montana"
   desc:
-    detail: I am working on my Master's Degree in Geosciences. My thesis focuses on the Spatio-Temporal Variability of the Snowmelt Onset using Machine Learning Methods. This work is done under the supervision of Dr. Joel T. Harper. 
+    detail: "Spatio-Temporal Variability of the Snowmelt Onset using Machine Learning Methods; under the supervision of Dr. Joel T. Harper"
   date:
     detail: Sep. 2022 - May 2024
   job:
-    detail: Master's student
+    detail: "Master's student"
   icon: fa-plus-square
   present: true
   
@@ -44,12 +44,3 @@
   icon: fa-plus-square
   present: true
 
-- name:
-    detail: Company B
-  desc:
-    detail: I worked at Company B ...
-  date:
-    detail: Jun. 2015
-  job:
-    detail: Full Stack Developer
-  icon: fa-plus-square
