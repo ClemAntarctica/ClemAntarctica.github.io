@@ -6,23 +6,23 @@
   tpl: about.html
   css:
 
-- id: science
-  i18n: nav.science
-  name: Science
-  tpl: science.html
+- id: career
+  i18n: nav.career
+  name: Career
+  tpl: career.html
   css: timeline
 
-#- id: mountains
-#  i18n: nav.mountains
-#  name: Mountains
-#  tpl: mountains.html
-#  css: team
+- id: skills
+  i18n: nav.skills
+  name: Skills
+  tpl: skills.html
+  css: team
 
-#- id: projects
-#  i18n: nav.projects
-#  name: Projects
-#  tpl: projects.html
-#  css: project
+- id: projects
+  i18n: nav.projects
+  name: Projects
+  tpl: projects.html
+  css: project
 
 - id: blog
   i18n: nav.blog
