@@ -1,6 +1,11 @@
 # skills section data
 
-label: Ability
-id : cs
-aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
-percentage: 100, 35, 65, 80, 70, 90, 50
+label: Languages
+id : cs1
+aspects: French, English, Spanish, Norwegian (Nynorsk), Russian
+percentage: 100, 90, 70, 50, 40
+
+label: Abilities
+id : cs2
+aspects: Python, Google Script, Microsoft Office, R, Modflow, Latex, Typst, Machine Learning, Matlab
+percentage: 90, 60, 70, 50, 40, 60, 70, 80, 50
