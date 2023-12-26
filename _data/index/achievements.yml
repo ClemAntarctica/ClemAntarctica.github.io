@@ -1,10 +1,11 @@
 # Achievements section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest achievements' img be located at '/static/assets/img/landing', and edit following img items.
-- name: "ON THE FIRN" science vulgarisation movie
+
+- name: '"ON THE FIRN" science vulgarisation movie'
   img: /static/assets/img/landing/ONtheFIRN.png
   url: https://www.youtube.com/watch?v=4UO1d3kQTf0
-  desc: "Joel T. Harper and Neil F. Humphrey go to the Greenland Ice Sheet every summer, this movies describes the process of getting there, living and carrying our science on the harsh environment. This movie was realized by myself."
+  desc: "Dr. Joel T. Harper and Dr. Neil with students, this movies describes the process of getting there, living and carrying our science on the harsh environment."
 
   
 #- name: Youtube video-making
