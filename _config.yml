@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: "I am a Graduate student in Snow Science at the University of Montana. I am passionate about my research, but I also enjoy mountaineering, twisty puzzles and making videos about them."  # Describe yourself.
+  desc: "I am a Graduate student in Snow Science at the University of Montana. I am passionate about my research, but I also enjoy mountaineering, twisty puzzles and making videos about them. I see my future revolving around applications of Machine Learning and Data Science on important problems in Climate and Cryosphere related problems."  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
