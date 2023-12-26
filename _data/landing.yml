@@ -19,7 +19,7 @@
   css: team
 
 - id: achievements
-  i18n: nav.achievements
+  i18n: nav.projects
   name: Achievements
   tpl: achievements.html
   css: project
