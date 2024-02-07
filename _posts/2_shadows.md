@@ -5,7 +5,7 @@ date:   2024-02-06
 desc: "Automatic computation of shadows over a landscape using QGIS and python (miniconda on Linux)"
 keywords: "Clement,Cherblanc,python,QGIS,shadows,science"
 categories: [HTML]
-tags: [science,methods,]
+tags: [science,tutorial]
 icon: icon-html
 ---
 
