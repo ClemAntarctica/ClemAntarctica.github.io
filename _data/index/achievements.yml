@@ -17,6 +17,11 @@
   url: https://www.youtube.com/watch?v=3Tlw0uV9oNo
   desc: "I presented the logistic and science to students and professors at the Universite Savoie Mont Blanc (in French, automatic subtitles available)."
 
+- name: 'Oral presentation at Snow Hydrology 2024'
+  img: /static/assets/img/landing/snow_hydro_excursion.jpg
+  url: https://snowhydro2024.sciencesconf.org/
+  desc: "During AGU Fall 2023 Meeting in San Francisco, I presented my methodology and recent findings on the spatio-temporal variability of snowmelt onset."
+
 #- name: Youtube video-making
 #  i18n: 
 #  gh_user:      ###### IF I WANT TO INCLUDE A GITHUB REPO
