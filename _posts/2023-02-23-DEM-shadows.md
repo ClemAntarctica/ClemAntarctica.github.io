@@ -5,15 +5,15 @@ date:   2024-02-23
 desc: "Automatic computation of shadows over a landscape using QGIS and python (miniconda on Linux)"
 keywords: "Clement,Cherblanc,python,QGIS,shadows,science"
 categories: [HTML,Science,Tutorials,Python]
-tags: [science,tutorials,python]
+tags: [Science,Tutorials,Python]
 icon: icon-html
 ---
 
 In my research for my Master’s thesis, I had to generate the shadows of mountains over a landscape, not just hillshade but actually the projected shadow of mountains over valley bottoms, to get a little closer to the actual solar radiation hitting the ground. I needed to do this computation for each day of the year and multiple times a day. I also needed a high enough resolution because it was for scientific purposes, the higher resolution, the better results in theory. This post is a description of my method, such that it could be replicated.
 
-	* Generating the sun’s location;
-	* QGIS shadow plugin;
-	* Automatization of the shadow computation.
+- Generating the sun’s location;
+- QGIS shadow plugin;
+- Automatization of the shadow computation.
 	
 # 1. Terrain properties and sun azimuth and altitude
 
@@ -23,7 +23,7 @@ At a given date, time and location, the sun will have a given altitude (smallest
 I computed the sun azimuth at hourly resolution for a whole year using the code at [this address](https://github.com/pokekrom/science/blob/main/BLOG_01_shadow_computation/compute_sun_location.ipynb), using the [python library pysolar](https://pysolar.org/). I investigated the importance of time resolution and found about 0.5% of cumulative sun radiation difference between hourly and 10-minute computation ([code fot this comparison](https://github.com/pokekrom/science/blob/main/BLOG_01_shadow_computation/SR%20hourly%20VS%2010minutes.ipynb)). 
 To verify that the numbers output by pysolar are not absurd, I plotted all the sun azimuths, altitudes and colored them with the intensity of the incident solar radiation, for a given hour of the day, we find what resembles analemma, as can be seen on the following image. This is encouraging, but should be considered with caution still.
 	
-	<img src="https://raw.githubusercontent.com/pokekrom/science/main/BLOG_01_shadow_computation/analema.png" width="50%">
+	![Analema](https://raw.githubusercontent.com/pokekrom/science/main/BLOG_01_shadow_computation/analema.png)
 	
 	
 # 2. QGIS Shadow plugin
@@ -37,20 +37,21 @@ The idea is simple: the function “Shadow depth” of the plugin computes the h
 
 This plugin is great, but at hourly resolution for a whole year, no way I will repeat this task manually thousands of times! This is where the QGIS console comes in handy. This is where things become a little bit tricky too. You need the “processing” and “pandas” libraries, accessible from the QGIS console. There may be ways that I do not know about, but the following wat worked for me:
 I am on Linux, I use miniconda to handle python environments, one of them is dedicated to this work, the following steps apply:
-	* Create a miniconda environment dedicated to QGIS;
-	* Install QGIS in this environment, as well as pandas;
-	* Open QGIS from this environment and console;
-	* Open your DEM;
-	* Open the python console by going into: Plugins → python console;
-	* You are ready to execute the code!
+
+- Create a miniconda environment dedicated to QGIS;
+- Install QGIS in this environment, as well as pandas;
+- Open QGIS from this environment and console;
+- Open your DEM;
+- Open the python console by going into: Plugins → python console;
+- You are ready to execute the code!
 	
 The python script that I wrote must then be called manually by you from the console, you can find it at [this link](https://github.com/pokekrom/science/blob/main/BLOG_01_shadow_computation/shadow_script_QGIS.py). This is a very short code that will produce one raster (“.tif” file) per time step considered. Remember to take a buffer outside your exact working area to consider the shadows of landscape outside your working area.
 
 The code does the following things:
-	* It imports the 2 necessary libraries (again, make sure that they are installed in the right environment, that QGIS was opened from a terminal using this environment)
-	* It loads the csv file containing the sun altitudes and azimuths and starts looping through all the values:
-        	* If the altitude is <0, there is no sun, let’s spare the computation time and skip it;
-        	* if the altitude is >0, then I call the “Shadow depth” function of the plugin, and save the output with a number (increment I), which basically is the i-th hour of the year. This allows me to them transform those thousands of rasters later on to be in whatever format I desire.
+- It imports the 2 necessary libraries (again, make sure that they are installed in the right environment, that QGIS was opened from a terminal using this environment)
+- It loads the csv file containing the sun altitudes and azimuths and starts looping through all the values:
+ 	- If the altitude is <0, there is no sun, let’s spare the computation time and skip it;
+	- if the altitude is >0, then I call the “Shadow depth” function of the plugin, and save the output with a number (increment I), which basically is the i-th hour of the year. This allows me to them transform those thousands of rasters later on to be in whatever format I desire.
 
 The call of the function should be quite straightforward, the parameters used too. You can also see the organization of my folders and how I save the computed shadows.
 
