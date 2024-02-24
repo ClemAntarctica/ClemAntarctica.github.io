@@ -50,9 +50,8 @@ The python script that I wrote must then be called manually by you from the cons
 The code does the following things:
 - It imports the 2 necessary libraries (again, make sure that they are installed in the right environment, that QGIS was opened from a terminal using this environment)
 - It loads the csv file containing the sun altitudes and azimuths and starts looping through all the values:
-
- - If the altitude is <0, there is no sun, let’s spare the computation time and skip it;
- - if the altitude is >0, then I call the “Shadow depth” function of the plugin, and save the output with a number (increment I), which basically is the i-th hour of the year. This allows me to them transform those thousands of rasters later on to be in whatever format I desire.
+	- If the altitude is <0, there is no sun, let’s spare the computation time and skip it;
+	- if the altitude is >0, then I call the “Shadow depth” function of the plugin, and save the output with a number (increment I), which basically is the i-th hour of the year. This allows me to them transform those thousands of rasters later on to be in whatever format I desire.
 
 The call of the function should be quite straightforward, the parameters used too. You can also see the organization of my folders and how I save the computed shadows.
 
