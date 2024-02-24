@@ -23,7 +23,7 @@ At a given date, time and location, the sun will have a given altitude (smallest
 I computed the sun azimuth at hourly resolution for a whole year using the code at [this address](https://github.com/pokekrom/science/blob/main/BLOG_01_shadow_computation/compute_sun_location.ipynb), using the [python library pysolar](https://pysolar.org/). I investigated the importance of time resolution and found about 0.5% of cumulative sun radiation difference between hourly and 10-minute computation ([code fot this comparison](https://github.com/pokekrom/science/blob/main/BLOG_01_shadow_computation/SR%20hourly%20VS%2010minutes.ipynb)). 
 To verify that the numbers output by pysolar are not absurd, I plotted all the sun azimuths, altitudes and colored them with the intensity of the incident solar radiation, for a given hour of the day, we find what resembles analemma, as can be seen on the following image. This is encouraging, but should be considered with caution still.
 	
-	![Analema](https://raw.githubusercontent.com/pokekrom/science/main/BLOG_01_shadow_computation/analema.png)
+![Analema](https://raw.githubusercontent.com/pokekrom/science/main/BLOG_01_shadow_computation/analema.png)
 	
 	
 # 2. QGIS Shadow plugin
@@ -50,6 +50,7 @@ The python script that I wrote must then be called manually by you from the cons
 The code does the following things:
 - It imports the 2 necessary libraries (again, make sure that they are installed in the right environment, that QGIS was opened from a terminal using this environment)
 - It loads the csv file containing the sun altitudes and azimuths and starts looping through all the values:
+
  	- If the altitude is <0, there is no sun, let’s spare the computation time and skip it;
 	- if the altitude is >0, then I call the “Shadow depth” function of the plugin, and save the output with a number (increment I), which basically is the i-th hour of the year. This allows me to them transform those thousands of rasters later on to be in whatever format I desire.
 
