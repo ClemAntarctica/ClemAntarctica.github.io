@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automatic computation of shadows over a landscape using QGIS and python (miniconda on Linux)"
-date:   2024-02-06
+date:   2024-02-23
 desc: "Automatic computation of shadows over a landscape using QGIS and python (miniconda on Linux)"
 keywords: "Clement,Cherblanc,python,QGIS,shadows,science"
 categories: [HTML,Science,Tutorials,Python]
@@ -15,7 +15,7 @@ In my research for my Master’s thesis, I had to generate the shadows of mounta
 	* QGIS shadow plugin;
 	* Automatization of the shadow computation.
 	
-1. Terrain properties and sun azimuth and altitude
+# 1. Terrain properties and sun azimuth and altitude
 
 In order to compute the incident solar radiation on a surface, we need both the surface information and the incidence of the sun. The surface information is a DEM of your choice, QGIS will know how to use it. I used a 30m DEM of my study area in northern Montana. The sun location requires a bit more work.
 At a given date, time and location, the sun will have a given altitude (smallest angle between the horizon and the sun) and a given azimuth (angle of the projection of the sun on the Earth surface to the north). For a large area (define large …). You may need to compute the sun’s location at every location because in the northern hemisphere, the sun will appear lower in the sky (smaller altitude) the further north you go, but in a small enough area like the one I considered, at mid-latitudes, I made the simplification of only considering one sun azimuth and altitude.
@@ -26,14 +26,14 @@ To verify that the numbers output by pysolar are not absurd, I plotted all the s
 	<img src="https://raw.githubusercontent.com/pokekrom/science/main/BLOG_01_shadow_computation/analema.png" width="50%">
 	
 	
-2. QGIS Shadow plugin
+# 2. QGIS Shadow plugin
 
 I am no QGIS expert, but I have come to use it on occasion, particularly I have found this cool plugin called “Terrain Shading” developed by Zoran Čučković. He talks in depth about his plugin, its methods and outputs on [his website](http://www.zoran-cuckovic.from.hr/QGIS-terrain-shading/) and with further explanation on [this blog](https://landscapearchaeology.org/qgis-terrain-shading/), I will now solely focus on the automatization of the call of this plugin.
 **/!\ IMPORTANT**: For reasons mentioned in [this article](https://landscapearchaeology.org/2020/wgs/), the DEM must be in a metered CRS, this is was the plugins can use, the use of latitude and longitude will result in distortions and will probably not even work for this project.
 The idea is simple: the function “Shadow depth” of the plugin computes the height of the shadow column at a given location, you may keep this information, I simply picked a threshold of 5m and assigned 1 to any cell with >5m shadow depth, and 0 otherwise. I then up-sampled my map to go from 30m to 1km resolution for the sake of my work.
 
 
-3. Automatization of the shadow computation
+# 3. Automatization of the shadow computation
 
 This plugin is great, but at hourly resolution for a whole year, no way I will repeat this task manually thousands of times! This is where the QGIS console comes in handy. This is where things become a little bit tricky too. You need the “processing” and “pandas” libraries, accessible from the QGIS console. There may be ways that I do not know about, but the following wat worked for me:
 I am on Linux, I use miniconda to handle python environments, one of them is dedicated to this work, the following steps apply:
