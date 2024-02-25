@@ -22,6 +22,11 @@
   url: https://snowhydro2024.sciencesconf.org/
   desc: "At the 4th International Meeting on Snow Hydrology in Grenoble, France, I presented my results on the tipping point in snow ripening and predictions of the spring activation."
 
+- name: 'World Cube Association involvement'
+  img: /static/assets/img/landing/WCA.jpeg
+  url: https://statistics.worldcubeassociation.org/database-query?sqlQuery=select+*+from+competition_organizers+where+organizer_id+in+%28select+id+from+users+where+wca_id%3D%272014CHER05%27%29
+  desc: "I have organized over 50 competitions, 10 of them where in completely new communities, in new countries. Those communities are mostly thriving today. My work has contributed to the WCA Spirit and Objectives of more competitions with more fun and under fair and inclusive conditions."
+
 #- name: Youtube video-making
 #  i18n: 
 #  gh_user:      ###### IF I WANT TO INCLUDE A GITHUB REPO
