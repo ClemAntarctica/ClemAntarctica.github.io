@@ -7,15 +7,15 @@
   url: https://www.youtube.com/watch?v=4UO1d3kQTf0
   desc: "Dr. Joel T. Harper and Dr. Neil go the Greenland Ice Sheet every summer with students. I joined twice and created this movie that describes the process of getting there, living and carrying out our science in the harsh environment."
 
-- name: 'Poster presentation at AGU 2023'
-  img: /static/assets/img/landing/poster_AGU.png
-  url: https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1418761
-  desc: "During AGU Fall 2023 Meeting in San Francisco, I presented my methodology and recent findings on the spatio-temporal variability of snowmelt onset."
-
 - name: 'Greenland Ice Sheet research presentation (in French)'
   img: /static/assets/img/landing/presentation_USMB_Greenland.png
   url: https://www.youtube.com/watch?v=3Tlw0uV9oNo
   desc: "I presented the logistic and science to students and professors at the Universite Savoie Mont Blanc (in French, automatic subtitles available)."
+
+- name: 'Poster presentation at AGU 2023'
+  img: /static/assets/img/landing/poster_AGU.png
+  url: https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1418761
+  desc: "During AGU Fall 2023 Meeting in San Francisco, I presented my methodology and recent findings on the spatio-temporal variability of snowmelt onset."
 
 - name: 'Oral presentation at Snow Hydrology 2024'
   img: /static/assets/img/landing/snow_hydro_excursion.jpg
