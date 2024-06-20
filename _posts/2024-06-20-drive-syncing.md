@@ -4,8 +4,8 @@ title:  "Keeping your science and your papers safe (MEGAsync)"
 date:   2024-06-20
 desc: "Using MEGAsync to keep all of your code, writing, data files and paper library safe"
 keywords: "Clement,Cherblanc,coding,papers,syncing,science,drive,cloud"
-categories: [HTML]
-tags: [science,methods,]
+categories: [Science,Tutorials,]
+tags: [Science,Tutorials,]
 icon: icon-html
 ---
 
