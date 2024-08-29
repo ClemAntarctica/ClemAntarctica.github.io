@@ -1,9 +1,9 @@
 # links section data
 - last_name: University contact
   first_name: Clement Cherblanc
-  desc: Graduate student
+  desc: PhD student
   website: https://www.umt.edu/geosciences/people/students.php?ID=7954
-  email: clement.cherblanc@umconnect.umt.edu
+  email: clc@dmi.dk
 
 - last_name: Other contact
   first_name: Clement Cherblanc
@@ -13,6 +13,6 @@
 
 - last_name: World Cube Association contact
   first_name: Clement Cherblanc
-  desc: Junior Delegate for Montana, USA
+  desc: Delegate for Denmark
   website: https://www.worldcubeassociation.org/persons/2014CHER05
   email: ccherblanc@worldcubeassociation.org

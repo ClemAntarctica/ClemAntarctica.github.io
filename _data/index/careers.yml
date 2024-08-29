@@ -1,5 +1,18 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+
+- name:
+    detail: "PhD at the Danish Meteorological Institute and Niels Bohr Institute"
+  desc:
+    detail: "Contributing to the PRECISE project"
+  date:
+    detail: Aug. 2024 - Aug. 2027
+  job:
+    detail: "PhD"
+  icon: fa-plus-square
+  present: true
+
 - name:
     detail: "Master's Degree at the University of Montana"
   desc:
