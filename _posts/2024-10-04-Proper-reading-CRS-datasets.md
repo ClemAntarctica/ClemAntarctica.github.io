@@ -467,7 +467,7 @@ ds.lon.plot(ax=axs[1])
 
 
 
-    <matplotlib.collections.QuadMesh at 0x735f36f12570>
+    <!-- <matplotlib.collections.QuadMesh at 0x735f36f12570> -->
 
 
 
@@ -497,7 +497,7 @@ fig,axs = plt.subplots(ncols=2, figsize=(15,6))
 ds.ts[0].plot(ax=axs[0])
 axs[1].pcolormesh(x_reprojected, y_reprojected, ds.ts[0])
 ```
-
+<!--
     /home/clc/micromamba/envs/pytorch/lib/python3.12/site-packages/pyproj/crs/crs.py:141: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
       in_crs_string = _prepare_from_proj_string(in_crs_string)
     /home/clc/micromamba/envs/pytorch/lib/python3.12/site-packages/pyproj/crs/crs.py:141: FutureWarning: '+init=<authority>:<code>' syntax is deprecated. '<authority>:<code>' is the preferred initialization method. When making the change, be mindful of axis order changes: https://pyproj4.github.io/pyproj/stable/gotchas.html#axis-order-changes-in-proj-6
@@ -509,7 +509,7 @@ axs[1].pcolormesh(x_reprojected, y_reprojected, ds.ts[0])
 
 
 
-    <matplotlib.collections.QuadMesh at 0x735f2cf69f40>
+    <matplotlib.collections.QuadMesh at 0x735f2cf69f40> -->
 
 
 
@@ -561,9 +561,9 @@ print('Data at those indices (first time step):', [ds.ts.values[0, *s_] for s_ i
 
     Station indices: [(289, 400), (286, 383), (247, 440)]
 
-
+<!--
     /tmp/ipykernel_13284/1961120441.py:5: FutureWarning: This function is deprecated. See: https://pyproj4.github.io/pyproj/stable/gotchas.html#upgrading-to-pyproj-2-from-pyproj-1
-      x_stations, y_stations = transform(wgs84, polar_stereo, lon_stations, lat_stations)
+      x_stations, y_stations = transform(wgs84, polar_stereo, lon_stations, lat_stations) -->
 
 
     Data at those indices (first time step): [254.09996, 256.95547, 255.72516]
@@ -601,7 +601,7 @@ plt.pcolormesh(target_X, target_Y, res.reshape(target_X.shape))
 
 
 
-    <matplotlib.collections.QuadMesh at 0x735f36ff72c0>
+  <!--  <matplotlib.collections.QuadMesh at 0x735f36ff72c0> -->
 
 
 ![Fig3](https://raw.githubusercontent.com/pokekrom/science/main/BLOG_figures_24-25/2024_geodata_reading_reproject_FIG3.png)
