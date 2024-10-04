@@ -394,29 +394,29 @@ dl.xr-attrs {
   fill: currentColor;
 }
 </style><pre class='xr-text-repr-fallback'>
-#&lt;xarray.Dataset&gt;
-#Dimensions:              (y: 637, x: 739, time: 745)
-#Coordinates:
-#  * y                    (y) float64 0.0 1.1e+04 2.2e+04 ... 6.985e+06 6.996e+06
-#  * x                    (x) float64 0.0 1.1e+04 2.2e+04 ... 8.107e+06 8.118e+06
-#  * time                 (time) datetime64[ns] 1999-01-01 ... 1999-02-01
-#    lon                  (y, x) float64 ...
-#    lat                  (y, x) float64 ...
-#Data variables:
-#    Polar_Stereographic  |S1 ...
-#    ts                   (time, y, x) float32 ...
-#Attributes:
-#    Conventions:       CF-1.4
-#    institute_id:      HCLIMcom
-#    model_id:          HCLIM
-#    experiment_id:     ANT11_eval_ERA5
-#   domain:            ANT11
-#    frequency:         1hr
-#    driving_model_id:  ERA5
-#    creation_date:     Sun Mar 31 03:23:30 2024
-#    title:             Surface Temperature
-#    comment:           Created with gl/xtool
-
+<!-- &lt;xarray.Dataset&gt;
+Dimensions:              (y: 637, x: 739, time: 745)
+Coordinates:
+  * y                    (y) float64 0.0 1.1e+04 2.2e+04 ... 6.985e+06 6.996e+06
+  * x                    (x) float64 0.0 1.1e+04 2.2e+04 ... 8.107e+06 8.118e+06
+  * time                 (time) datetime64[ns] 1999-01-01 ... 1999-02-01
+    lon                  (y, x) float64 ...
+    lat                  (y, x) float64 ...
+Data variables:
+    Polar_Stereographic  |S1 ...
+    ts                   (time, y, x) float32 ...
+Attributes:
+    Conventions:       CF-1.4
+    institute_id:      HCLIMcom
+    model_id:          HCLIM
+    experiment_id:     ANT11_eval_ERA5
+   domain:            ANT11
+    frequency:         1hr
+    driving_model_id:  ERA5
+    creation_date:     Sun Mar 31 03:23:30 2024
+    title:             Surface Temperature
+    comment:           Created with gl/xtool
+-->
     </pre><div class='xr-wrap' style='display:none'><div class='xr-header'><div class='xr-obj-type'>xarray.Dataset</div></div><ul class='xr-sections'><li class='xr-section-item'><input id='section-e9e1084b-3133-4095-bc83-d9c018a5678c' class='xr-section-summary-in' type='checkbox' disabled ><label for='section-e9e1084b-3133-4095-bc83-d9c018a5678c' class='xr-section-summary'  title='Expand/collapse section'>Dimensions:</label><div class='xr-section-inline-details'><ul class='xr-dim-list'><li><span class='xr-has-index'>y</span>: 637</li><li><span class='xr-has-index'>x</span>: 739</li><li><span class='xr-has-index'>time</span>: 745</li></ul></div><div class='xr-section-details'></div></li><li class='xr-section-item'><input id='section-21e83a6e-41b2-4c37-9966-2e2840d9f6be' class='xr-section-summary-in' type='checkbox'  checked><label for='section-21e83a6e-41b2-4c37-9966-2e2840d9f6be' class='xr-section-summary' >Coordinates: <span>(5)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>y</span></div><div class='xr-var-dims'>(y)</div><div class='xr-var-dtype'>float64</div><div class='xr-var-preview xr-preview'>0.0 1.1e+04 ... 6.985e+06 6.996e+06</div><input id='attrs-bb968549-3bdc-4b11-956f-1c89331c4fe2' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-bb968549-3bdc-4b11-956f-1c89331c4fe2' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-1cf40c32-bead-48ee-b886-671caed283fa' class='xr-var-data-in' type='checkbox'><label for='data-1cf40c32-bead-48ee-b886-671caed283fa' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>axis :</span></dt><dd>Y</dd><dt><span>standard_name :</span></dt><dd>projection_y_coordinate</dd><dt><span>long_name :</span></dt><dd>Y Coordinate Of Projection</dd><dt><span>units :</span></dt><dd>m</dd></dl></div><div class='xr-var-data'><pre>array([      0.,   11000.,   22000., ..., 6974000., 6985000., 6996000.])</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>x</span></div><div class='xr-var-dims'>(x)</div><div class='xr-var-dtype'>float64</div><div class='xr-var-preview xr-preview'>0.0 1.1e+04 ... 8.107e+06 8.118e+06</div><input id='attrs-214d8c01-f809-4629-ae4d-54ec9da093d7' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-214d8c01-f809-4629-ae4d-54ec9da093d7' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-909f4420-639c-4481-8640-b438d762514a' class='xr-var-data-in' type='checkbox'><label for='data-909f4420-639c-4481-8640-b438d762514a' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>axis :</span></dt><dd>X</dd><dt><span>standard_name :</span></dt><dd>projection_x_coordinate</dd><dt><span>long_name :</span></dt><dd>X Coordinate Of Projection</dd><dt><span>units :</span></dt><dd>m</dd></dl></div><div class='xr-var-data'><pre>array([      0.,   11000.,   22000., ..., 8096000., 8107000., 8118000.])</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>time</span></div><div class='xr-var-dims'>(time)</div><div class='xr-var-dtype'>datetime64[ns]</div><div class='xr-var-preview xr-preview'>1999-01-01 ... 1999-02-01</div><input id='attrs-4b932e28-02fe-4b7d-b41f-35c8f789c541' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-4b932e28-02fe-4b7d-b41f-35c8f789c541' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-0af63e4e-c2ba-4aca-a127-757b69bdaaf1' class='xr-var-data-in' type='checkbox'><label for='data-0af63e4e-c2ba-4aca-a127-757b69bdaaf1' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>standard_name :</span></dt><dd>time</dd><dt><span>long_name :</span></dt><dd>Time</dd><dt><span>_CoordinateAxisType :</span></dt><dd>Time</dd></dl></div><div class='xr-var-data'><pre>array([&#x27;1999-01-01T00:00:00.000000000&#x27;, &#x27;1999-01-01T01:00:00.000000000&#x27;,
        &#x27;1999-01-01T02:00:00.000000000&#x27;, ..., &#x27;1999-01-31T22:00:00.000000000&#x27;,
        &#x27;1999-01-31T23:00:00.000000000&#x27;, &#x27;1999-02-01T00:00:00.000000000&#x27;],
