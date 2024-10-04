@@ -605,3 +605,6 @@ plt.pcolormesh(target_X, target_Y, res.reshape(target_X.shape))
 
 
 The key point here is that you are able to save this data in a new netCDF file because it has a regular grid. Regular examples from the netCDF or xarray library would suffice to do so.
+
+
+> Thank you to Fred Bunt for providing valuable sources and his great advice, per usual. :)
