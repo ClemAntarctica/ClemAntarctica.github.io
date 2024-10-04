@@ -467,12 +467,6 @@ ds.lon.plot(ax=axs[1])
 
 
 
-    <!-- 
-    <matplotlib.collections.QuadMesh at 0x735f36f12570>
-    -->
-
-
-
 
     
 ![Fig1](https://raw.githubusercontent.com/pokekrom/science/main/BLOG_figures_24-25/2024_geodata_reading_reproject_FIG1.png)
