@@ -470,7 +470,7 @@ ds.lon.plot(ax=axs[1])
 
 
     
-![png](proper_encoding_xarray_data_FIG/output_6_1.png)
+![Fig1](https://raw.githubusercontent.com/pokekrom/science/main/BLOG_figures_24-25/2024_geodata_reading_reproject_FIG1.png)
     
 
 
@@ -512,7 +512,7 @@ axs[1].pcolormesh(x_reprojected, y_reprojected, ds.ts[0])
 
 
     
-![png](proper_encoding_xarray_data_FIG/output_8_2.png)
+![Fig2](https://raw.githubusercontent.com/pokekrom/science/main/BLOG_figures_24-25/2024_geodata_reading_reproject_FIG2.png)
     
 
 
@@ -601,11 +601,8 @@ plt.pcolormesh(target_X, target_Y, res.reshape(target_X.shape))
     <matplotlib.collections.QuadMesh at 0x735f36ff72c0>
 
 
+![Fig3](https://raw.githubusercontent.com/pokekrom/science/main/BLOG_figures_24-25/2024_geodata_reading_reproject_FIG3.png)
 
-
-    
-![png](proper_encoding_xarray_data_FIG/output_16_1.png)
-    
 
 
 The key point here is that you are able to save this data in a new netCDF file because it has a regular grid. Regular examples from the netCDF or xarray library would suffice to do so.
