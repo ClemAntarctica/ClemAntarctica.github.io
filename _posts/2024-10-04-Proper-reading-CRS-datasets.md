@@ -12,6 +12,7 @@ icon: icon-html
 
 ```python
 import xarray as xr
+import rioxarray # to use the .rio functions
 import matplotlib.pyplot as plt
 ```
 
@@ -445,7 +446,7 @@ Attributes:
 
 
 
-This is an example dataset from an 11km reanalysis of ERA5. I would like to attract your attention on the Dimensions and Coordinates. There are two dimensions here: *x* and *y*. Coordinates are that *x* and *y*, *time* and *lat* and *lon*. We notice right away that *x* and *y* are 1D arrays, vectors in other words, of size 739 and 635 respectively. This indicates a "regular grid", that can be simply be defined by these two vectors. In other words, one row of that grid will have a single *y* value, and one column will have a single *x* value. This regular grid may look exactly like what we need, but we need to make sure that this grid is connected to reality somehow. Indeed, we need to locate this grid with respect to some standards, imagine a coordinate reference system in high school mathematics, you need the coordinates of the origin and its unit vectors. This is the information carried by the CRS, it is a standard way of encoding some coordinate system's key information, it will usually be latitudes/longitudes or in meters, both having their advantages and inconvenients. Thousands of CRS exist, you can find them on [EPSG.io](https://epsg.io/), some will be globally oriented (ex: the modern definition of latitude and longitude is a CRS), some will be more regionally oriented, peticularily the metered CRS, they are really accurate at small scale but start being wrong further away from the CRS's origin due to the curvature of the Earth. There are very simple ways to check one datatset's CRS:
+This is an example dataset from an 11km reanalysis of ERA5. I would like to attract your attention on the Dimensions and Coordinates. There are two dimensions here: *x* and *y*. Coordinates are that *x* and *y*, *time* and *lat* and *lon*. We notice right away that *x* and *y* are 1D arrays, vectors in other words, of size 739 and 635 respectively. This indicates a "regular grid", that can be simply be defined by these two vectors. In other words, one row of that grid will have a single *y* value, and one column will have a single *x* value. This regular grid may look exactly like what we need, but we need to make sure that this grid is connected to reality somehow. Indeed, we need to locate this grid with respect to some standards, imagine a coordinate reference system in high school mathematics, you need the coordinates of the origin and its unit vectors. This is the information carried by the CRS, it is a standard way of encoding some coordinate system's key information, it will usually be latitudes/longitudes or in meters, both having their advantages and inconvenients. Thousands of CRS exist, you can find them on [EPSG.io](https://epsg.io/), some will be globally oriented (ex: the modern definition of latitude and longitude is a CRS), some will be more regionally oriented, peticularily the metered CRS (a CRS that uses a unit of meters), they are really accurate at small scale but start being wrong further away from the CRS's origin due to the curvature of the Earth. There are very simple ways to check one datatset's CRS:
 
 
 ```python
