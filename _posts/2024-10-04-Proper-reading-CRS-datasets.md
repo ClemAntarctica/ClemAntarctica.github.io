@@ -1,3 +1,15 @@
+---
+layout: post
+title:  "Proper reading and reprojection of model output on a non-regular grid with no CRS"
+date:   2024-10-04
+desc: "Proper reading and reprojection of model output on a non-regular grid with no CRS"
+keywords: "Clement,Cherblanc,python,xarray,rioxarray,crs,epsg,geodatasets,science"
+categories: [Science,Tutorials,Python]
+tags: [Science,Tutorials,Python]
+icon: icon-html
+---
+
+
 ```python
 import xarray as xr
 import rioxarray # for the .rio functions
@@ -7,6 +19,8 @@ import numpy as np
 from pyproj import Transformer
 from scipy.interpolate import RegularGridInterpolator, griddata
 ```
+
+> *This work benefited from the valuable help, sources and great advice of Fredrick Bunt (University of Montana). Big thank you Fred!*
 
 # Procedures and good habits when writting and reading large geo-spatio-temporal datasets
 
