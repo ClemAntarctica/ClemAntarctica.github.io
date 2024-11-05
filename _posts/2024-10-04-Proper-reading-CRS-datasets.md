@@ -9,6 +9,7 @@ tags: [Science,Tutorials,Python]
 icon: icon-html
 ---
 
+> *This work benefited from the valuable help, sources and great advice of Fredrick Bunt (University of Montana). Big thank you Fred!*
 
 ```python
 import xarray as xr
@@ -20,7 +21,7 @@ from pyproj import Transformer
 from scipy.interpolate import RegularGridInterpolator, griddata
 ```
 
-> *This work benefited from the valuable help, sources and great advice of Fredrick Bunt (University of Montana). Big thank you Fred!*
+
 
 # Procedures and good habits when writting and reading large geo-spatio-temporal datasets
 
