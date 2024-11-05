@@ -999,7 +999,7 @@ dl.xr-attrs {
   stroke: currentColor;
   fill: currentColor;
 }
-
+</style><pre class='xr-text-repr-fallback'>
 </pre><div class='xr-wrap' style='display:none'><div class='xr-header'><div class='xr-obj-type'>xarray.DataArray</div><div class='xr-array-name'></div><ul class='xr-dim-list'><li><span class='xr-has-index'>time</span>: 1</li><li><span class='xr-has-index'>y</span>: 603</li><li><span class='xr-has-index'>x</span>: 700</li></ul></div><ul class='xr-sections'><li class='xr-section-item'><div class='xr-array-wrap'><input id='section-3fc24cab-1ea6-4a33-ae9a-f4297e185ad5' class='xr-array-in' type='checkbox' checked><label for='section-3fc24cab-1ea6-4a33-ae9a-f4297e185ad5' title='Show/hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-array-preview xr-preview'><span>nan nan nan nan nan nan nan nan ... nan nan nan nan nan nan nan nan</span></div><div class='xr-array-data'><pre>array([[[nan, nan, nan, ..., nan, nan, nan],
         [nan, nan, nan, ..., nan, nan, nan],
         [nan, nan, nan, ..., nan, nan, nan],
