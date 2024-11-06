@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from pyproj import Transformer
-from scipy.interpolate import RegularGridInterpolator, griddata
+from scipy.interpolate import griddata
 ```
 
 
