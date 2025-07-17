@@ -5,9 +5,9 @@ title: Clément Cherblanc
 description: Clément Cherblanc's personal website
 keywords: Clément,Clement,Cherblanc,pokekrom,2014CHER05,clemche,ccherblanc,cherblac
 #baseurl:  /pokekrom # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://pokekrom.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
+url: https://ClemAntarctica.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
-img_path: /pokekrom/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path: /ClemAntarctica/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
@@ -15,7 +15,7 @@ author:  # change following line to your infomation.
   first_name: Clément  # Be used at index page about me section.
   last_name: Cherblanc  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpeg  # upload your avatar at directory and edit it.
-  github_username: pokekrom  # Leave blank if you don't have now
+  github_username: ClemAntarctica  # Leave blank if you don't have now
   linkedin_id:  # Leave blank if you don't have now
   facebook_username:   # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
