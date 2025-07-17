@@ -2,7 +2,8 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: PhD program
-  img: #/static/assets/img/landing/MD_thumbnail.pnhave started my PhD program at the Danish Meteorological Institute. I contribute to the PRECISE project: PREdicting Changes in Ice Sheet on Earthe Sheet on Earth
+  img: /static/assets/img/landing/antarctica.png
+  desc: My ongoing PhD is part of the PRECISE project. I work on improving the estimates of surface mass balance of the Antarctic ice sheet from regional climate models using neural networks.
 
 - name: Youtube video-making
   img: /static/assets/img/landing/youtube.png
