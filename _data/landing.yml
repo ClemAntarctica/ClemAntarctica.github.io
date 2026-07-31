@@ -40,7 +40,7 @@
   name: EV_CPH
   tpl: ev_cph.html
   page: EV_CPH/
-  css: testimonials navy-section
+  css: ev-cph-section
 
 - id: links
   i18n: nav.link
