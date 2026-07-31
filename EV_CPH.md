@@ -18,25 +18,25 @@ Inspired by the "every street" mapping challenge, this project tracks exactly wh
 
 ### How it works
 
-The street network (all walkable ways, including footpaths through parks) is pulled from OpenStreetMap and resampled into a point every ~20m. A point counts as covered as soon as one of my GPS tracks passes within a small buffer of it — tracks come from my own recorded runs and hikes, plus my full Strava activity history filtered down to on-foot activities that actually took place in Denmark.
+The street network (all walkable ways, including footpaths through parks and separated bike lanes) is pulled from OpenStreetMap and resampled into a point every ~10m. A point counts as covered as soon as one of my GPS tracks passes within a small buffer of it — tracks come from my own recorded runs and hikes, plus my full Strava activity history filtered down to on-foot activities that actually took place in Denmark.
 
 ### Current coverage
 
-**1,110 km done out of 5,178 km of street network (21.4%).**
+**939 km done out of 5,322 km of street network (17.6%).**
 
 | District | Done (km) | Total (km) | % done |
 |---|---:|---:|---:|
-| Nørrebro | 120.8 | 275.6 | 43.8% |
-| Indre By | 237.6 | 602.0 | 39.5% |
-| Østerbro | 159.1 | 506.3 | 31.4% |
-| Amager Vest | 195.3 | 671.6 | 29.1% |
-| Frederiksberg | 127.1 | 606.2 | 21.0% |
-| Vesterbro-Kongens Enghave | 99.5 | 529.4 | 18.8% |
-| Amager Øst | 62.1 | 435.9 | 14.2% |
-| Bispebjerg | 39.0 | 405.0 | 9.6% |
-| Valby | 31.6 | 457.9 | 6.9% |
-| Brønshøj-Husum | 20.7 | 368.7 | 5.6% |
-| Vanløse | 17.1 | 319.1 | 5.4% |
+| Nørrebro | 97.1 | 278.6 | 34.9% |
+| Indre By | 183.0 | 571.7 | 32.0% |
+| Amager Vest | 225.1 | 820.5 | 27.4% |
+| Østerbro | 123.0 | 498.6 | 24.7% |
+| Frederiksberg | 93.8 | 578.8 | 16.2% |
+| Vesterbro-Kongens Enghave | 62.0 | 539.9 | 11.5% |
+| Amager Øst | 48.5 | 445.0 | 10.9% |
+| Bispebjerg | 38.4 | 404.0 | 9.5% |
+| Brønshøj-Husum | 28.4 | 397.6 | 7.2% |
+| Valby | 25.4 | 469.5 | 5.4% |
+| Vanløse | 14.5 | 317.9 | 4.6% |
 
 *(Copenhagen's 10 official bydele, plus Frederiksberg as its own municipality — boundaries from Københavns Kommune's open-data service, since OpenStreetMap doesn't carry them.)*
 
