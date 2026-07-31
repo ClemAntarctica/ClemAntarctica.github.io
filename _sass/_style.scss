@@ -2652,13 +2652,13 @@ body {
     background-image: url(../assets/img/landing/avatar_all.png);
     background-position: center;
   }
-  .ev-cph-section {
+  .es-cph-section {
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: #3385FF;
     // a semi-transparent color layer painted on top of the image, since
     // background-image itself has no opacity property to tone the map down
-    background-image: linear-gradient(rgba(51, 133, 255, 0.5), rgba(51, 133, 255, 0.5)), url(../assets/img/landing/ev_cph_coverage.png);
+    background-image: linear-gradient(rgba(51, 133, 255, 0.5), rgba(51, 133, 255, 0.5)), url(../assets/img/landing/es_cph_coverage.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

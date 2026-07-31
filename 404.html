@@ -28,5 +28,15 @@ permalink: /404.html
     </div>
     <!-- Mainly scripts -->
     <script src="{{"/static/assets/app-20210315.min.js"| prepend: site.baseurl }}"></script>
+    <script>
+        // case-insensitive redirect for the ES_CPH page, plus its old EV_CPH name
+        (function () {
+            var slug = window.location.pathname.replace(/^\/+|\/+$/g, "").toLowerCase();
+            var aliases = ["es_cph", "ev_cph"];
+            if (aliases.indexOf(slug) !== -1) {
+                window.location.replace("{{ "/ES_CPH/" | prepend: site.baseurl }}");
+            }
+        })();
+    </script>
 </body>
 </html>

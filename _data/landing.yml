@@ -36,11 +36,11 @@
   page: blog/
   css: testimonials navy-section
 
-- id: ev_cph
-  name: EV_CPH
-  tpl: ev_cph.html
-  page: EV_CPH/
-  css: ev-cph-section
+- id: es_cph
+  name: ES_CPH
+  tpl: es_cph.html
+  page: ES_CPH/
+  css: es-cph-section
 
 - id: links
   i18n: nav.link
