@@ -26,7 +26,7 @@ The street network (all walkable ways, including footpaths through parks and sep
 
 | District | Done (km) | Total (km) | % done |
 |---|---:|---:|---:|
-| Amager Vest | 298.7 | 820.5 | 26.4% |
+| Amager Vest | 298.7 | 820.5 | 36.4% |
 | Nørrebro | 97.9 | 278.6 | 35.1% |
 | Indre By | 180.9 | 571.7 | 31.6% |
 | Frederiksberg | 142.6 | 578.8 | 24.6% |
