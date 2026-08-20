@@ -14,7 +14,7 @@ Inspired by the "every street" mapping challenge, this project tracks exactly wh
 
 <img src="{{ "/static/assets/img/landing/es_cph_coverage.png" | prepend: site.baseurl }}" width="100%">
 
-<p class="text-center text-muted">Red = covered at least once. Grey = not yet. Snapshot as of 7 August 2026.</p>
+<p class="text-center text-muted">Red = covered at least once. Grey = not yet. Snapshot as of 20 August 2026.</p>
 
 ### How it works
 
@@ -22,17 +22,17 @@ The street network (all walkable ways, including footpaths through parks and sep
 
 ### Current coverage
 
-**1148 km done out of 4265 km of street network (21.6%).**
+**1201 km done out of 4123 km of street network (22.6%).**
 
 | District | Done (km) | Total (km) | % done |
 |---|---:|---:|---:|
-| Amager Vest | 319.0 | 820.5 | 38.9% |
-| Nørrebro | 97.9 | 278.6 | 35.1% |
-| Indre By | 198.8 | 571.7 | 34.8% |
-| Østerbro | 162.2 | 498.6 | 32.5% |
+| Amager Vest | 344.9 | 820.5 | 42.0% |
+| Indre By | 207.3 | 571.7 | 36.3% |
+| Østerbro | 180.4 | 498.6 | 36.2% |
+| Nørrebro | 98.0 | 278.6 | 35.2% |
 | Frederiksberg | 142.6 | 578.8 | 24.6% |
 | Amager Øst | 65.8 | 445.0 | 14.8% |
-| Vesterbro-Kongens Enghave | 73.1 | 539.9 | 13.5% |
+| Vesterbro-Kongens Enghave | 73.4 | 539.9 | 13.6% |
 | Bispebjerg | 33.6 | 404.0 | 8.3% |
 | Brønshøj-Husum | 23.2 | 397.6 | 5.8% |
 | Vanløse | 14.6 | 317.9 | 4.6% |
