@@ -14,7 +14,7 @@ Inspired by the "every street" mapping challenge, this project tracks exactly wh
 
 <img src="{{ "/static/assets/img/landing/es_cph_coverage.png" | prepend: site.baseurl }}" width="100%">
 
-<p class="text-center text-muted">Red = covered at least once. Grey = not yet. Snapshot as of 20 August 2026.</p>
+<p class="text-center text-muted">Purple = covered at least once. Grey = not yet. Snapshot as of 22 August 2026.</p>
 
 ### How it works
 
@@ -22,21 +22,22 @@ The street network (all walkable ways, including footpaths through parks and sep
 
 ### Current coverage
 
-**1201 km done out of 4123 km of street network (22.6%).**
+**1279 km done out of 5422 km of street network (24.0%).**
 
 | District | Done (km) | Total (km) | % done |
 |---|---:|---:|---:|
-| Amager Vest | 344.9 | 820.5 | 42.0% |
-| Indre By | 207.3 | 571.7 | 36.3% |
-| Østerbro | 180.4 | 498.6 | 36.2% |
+| Amager Vest | 363.2 | 820.5 | 44.3% |
+| Indre By | 229.7 | 571.7 | 40.2% |
+| Østerbro | 183.9 | 498.6 | 36.9% |
 | Nørrebro | 98.0 | 278.6 | 35.2% |
 | Frederiksberg | 142.6 | 578.8 | 24.6% |
+| Vesterbro-Kongens Enghave | 91.0 | 539.9 | 16.9% |
 | Amager Øst | 65.8 | 445.0 | 14.8% |
-| Vesterbro-Kongens Enghave | 73.4 | 539.9 | 13.6% |
 | Bispebjerg | 33.6 | 404.0 | 8.3% |
+| Valby | 32.9 | 469.5 | 7.0% |
 | Brønshøj-Husum | 23.2 | 397.6 | 5.8% |
 | Vanløse | 14.6 | 317.9 | 4.6% |
-| Valby | 16.8 | 469.5 | 3.6% |
+
 
 *(Copenhagen's 10 official bydele, plus Frederiksberg as its own municipality — boundaries from Københavns Kommune's open-data service, since OpenStreetMap doesn't carry them.)*
 
