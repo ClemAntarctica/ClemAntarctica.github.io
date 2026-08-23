@@ -16,6 +16,8 @@ Inspired by the "every street" mapping challenge, this project tracks exactly wh
 
 <p class="text-center text-muted">Purple = covered at least once. Grey = not yet. Snapshot as of 22 August 2026.</p>
 
+<p class="text-center"><small><a href="{{ "/static/assets/img/landing/es_cph_coverage_HR.png" | prepend: site.baseurl }}">High-res version</a> &middot; <a href="{{ "/static/assets/img/landing/es_cph_coverage_negative.png" | prepend: site.baseurl }}">Negative (what's left)</a></small></p>
+
 ### How it works
 
 The street network (all walkable ways, including footpaths through parks and separated bike lanes) is pulled from OpenStreetMap and resampled into a point every ~10m. A point counts as covered as soon as one of my GPS tracks passes within a small buffer of it — tracks come from my own recorded runs and hikes, plus my full Strava activity history filtered down to on-foot activities that actually took place in Denmark.
