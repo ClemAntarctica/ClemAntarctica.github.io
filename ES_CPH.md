@@ -24,14 +24,14 @@ The street network (all walkable ways, including footpaths through parks and sep
 
 ### Current coverage
 
-**1492 km done out of 5371 km of street network (27.2%).**
+**1506 km done out of 5371 km of street network (27.2%).**
 
 | District | Done (km) | Total (km) | % done |
 |---|---:|---:|---:|
-| Østerbro | 272.3 | 498.6 | 53.7% |
+| Østerbro | 274.2 | 498.6 | 54.1% |
 | Amager Vest | 382.3 | 820.5 | 46.3% |
-| Indre By | 245.4 | 571.7 | 41.9% |
-| Nørrebro | 98.9 | 278.6 | 35.3% |
+| Indre By | 250.9 | 571.7 | 42.8% |
+| Nørrebro | 105.0 | 278.6 | 37.5% |
 | Amager Øst | 150.8 | 445.0 | 33.8% |
 | Frederiksberg | 144.2 | 578.8 | 24.8% |
 | Vesterbro-Kongens Enghave | 91.4 | 539.9 | 16.7% |
