@@ -14,7 +14,7 @@ Inspired by the "every street" mapping challenge, this project tracks exactly wh
 
 <img src="{{ "/static/assets/img/landing/es_cph_coverage.png" | prepend: site.baseurl }}" width="100%">
 
-<p class="text-center text-muted">Purple = covered at least once. Grey = not yet. Snapshot as of 10 November 2026.</p>
+<p class="text-center text-muted">Purple = covered at least once. Grey = not yet. Snapshot as of 11 November 2026.</p>
 
 <p class="text-center"><small><a href="{{ "/static/assets/img/landing/es_cph_coverage_HR.png" | prepend: site.baseurl }}">High-res version</a> &middot; <a href="{{ "/static/assets/img/landing/es_cph_coverage_negative.png" | prepend: site.baseurl }}">Negative (what's left)</a></small></p>
 
@@ -24,12 +24,12 @@ The street network (all walkable ways, including footpaths through parks and sep
 
 ### Current coverage
 
-**1777 km done out of 5371 km of street network (33.1%).**
+**1791 km done out of 5371 km of street network (33.7%).**
 
 | District | Done (km) | Total (km) | % done |
 |---|---:|---:|---:|
-| Østerbro | 306.0 | 507.1 | 60.4% |
-| Indre By | 338.0 | 585.9 | 57.7% |
+| Østerbro | 307.1 | 507.1 | 60.6% |
+| Indre By | 351.8 | 585.9 | 60.0% |
 | Amager Vest | 420.7 | 825.6 | 51.0% |
 | Nørrebro | 129.6 | 279.8 | 46.3% |
 | Amager Øst | 171.2 | 446.9 | 38.3% |
